@@ -47,7 +47,7 @@ body {
 
 [hidden] { display: none !important; }
 
-main { padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom)); }
+main { position: relative; padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom)); }
 
 .pantalla {
   max-width: 30rem;
@@ -86,10 +86,11 @@ a.boton { text-align: center; text-decoration: none; }
 .boton-principal { background: var(--tinta); color: var(--fondo); }
 .boton-secundario { background: transparent; color: var(--tinta); }
 
+/* Arriba a la derecha de la pantalla del juego, a la altura de «Día N» (bajo la franja del Almanaque). */
 .boton-ayuda {
   position: absolute;
-  top: max(10px, env(safe-area-inset-top));
-  right: 10px;
+  top: max(16px, env(safe-area-inset-top));
+  right: calc(max(16px, (100% - 30rem) / 2) - 10px);
   z-index: 5;
   width: 44px;
   height: 44px;
@@ -390,11 +391,6 @@ a.boton { text-align: center; text-decoration: none; }
 #cuenta-atras { font-variant-numeric: tabular-nums; color: var(--tinta); font-weight: 600; }
 .pantalla-final .boton + .boton { margin-top: 10px; }
 .pantalla-final #boton-repetir { margin-top: 24px; }
-
-/* Con la franja «☜ Regresar al Almanaque» arriba, el botón de ayuda baja a su altura. */
-#almanaque-franja { padding-right: 68px !important; }
-#almanaque-franja ~ .boton-ayuda { top: max(2px, calc(env(safe-area-inset-top) - 6px)); }
-#almanaque-franja ~ main .cabecera-juego { padding-right: 0; }
 
 /* ——— Hoja de bienvenida ——— */
 .hoja {
