@@ -165,31 +165,21 @@ a.boton { text-align: center; text-decoration: none; }
 .error { margin: 24px 0 0; max-width: 22rem; color: var(--rojo); font-size: .9375rem; }
 
 /* ——— Juego ——— */
-.cabecera-juego {
+/* Logo y nombre centrados arriba, entre los botones de estadísticas y de ayuda. */
+.cabecera {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  min-height: 44px;
-  padding: 0 54px 0 40px; /* huecos para los botones de estadísticas y ayuda */
-}
-.progreso {
-  display: flex;
+  justify-content: center;
   gap: 8px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  min-height: 44px;
+  max-width: 30rem;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--linea);
+  padding-bottom: 12px;
 }
-.progreso li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 1px solid var(--tinta-suave);
-  transition: background-color var(--transicion), border-color var(--transicion);
-}
-.progreso li.actual { border-color: var(--tinta); box-shadow: 0 0 0 3px var(--fondo), 0 0 0 4px var(--linea); }
-.progreso li.acierto { background: var(--tinta); border-color: var(--tinta); }
-.progreso li.fallo { background: var(--rojo); border-color: var(--rojo); }
+.cabecera-logo { width: 26px; height: 30px; }
+.cabecera-reloj { fill: var(--rojo); }
+.cabecera-nombre { font: 500 1.75rem/1 var(--serif); letter-spacing: .02em; }
 
 .tarjeta-palabra {
   text-align: center;

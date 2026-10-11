@@ -152,19 +152,6 @@
     if (foco) $(foco).focus({ preventScroll: true });
   }
 
-  function pintarProgreso() {
-    const lista = $('progreso');
-    lista.innerHTML = '';
-    palabras.forEach((_, i) => {
-      const li = document.createElement('li');
-      const r = respuestas()[i];
-      if (r) li.className = r.acierto ? 'acierto' : 'fallo';
-      else if (i === indice) li.className = 'actual';
-      li.setAttribute('aria-label', `Palabra ${i + 1}: ${r ? (r.acierto ? 'acierto' : 'fallo') : 'pendiente'}`);
-      lista.appendChild(li);
-    });
-  }
-
   function mostrarPregunta(i) {
     indice = i;
     const p = palabras[i];
@@ -189,7 +176,6 @@
 
     $('ficha').classList.remove('abierta');
     $('boton-siguiente').textContent = i === palabras.length - 1 ? 'Ver resultado' : 'Siguiente';
-    pintarProgreso();
     mostrar('pantalla-juego', 'palabra');
 
     const previa = respuestas()[i];
@@ -203,7 +189,6 @@
     if (partidaTerminada()) registrarFinal();
     guardar();
     avisarAlmanaque();
-    pintarProgreso();
     revelar(r, true);
   }
 
@@ -435,7 +420,6 @@
     modoPrueba = prueba !== null;
     dia = modoPrueba ? prueba : diaDeHoy();
 
-    $('juego-dia').textContent = `Día ${dia}`;
     if (modoPrueba) {
       const aviso = $('aviso-prueba');
       aviso.innerHTML = '<strong>Modo prueba</strong> · no cuenta para tus estadísticas';
