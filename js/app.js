@@ -276,15 +276,20 @@
       repaso.appendChild(li);
     });
 
-    const s = estado.stats;
-    $('est-racha').textContent = rachaVisible();
-    $('est-mejor').textContent = s.mejorRacha;
-    $('est-partidas').textContent = s.partidas;
-    $('est-aciertos').textContent = s.aciertos;
+    pintarEstadisticas('est');
     $('boton-repetir').hidden = !modoPrueba;
 
     mostrar('pantalla-final', 'titulo-final');
     arrancarCuentaAtras();
+  }
+
+  // Racha, partidas y aciertos: en la pantalla final («est-») y en la hoja de estadísticas («hest-»).
+  function pintarEstadisticas(prefijo) {
+    const s = estado.stats;
+    $(prefijo + '-racha').textContent = rachaVisible();
+    $(prefijo + '-mejor').textContent = s.mejorRacha;
+    $(prefijo + '-partidas').textContent = s.partidas;
+    $(prefijo + '-aciertos').textContent = s.aciertos;
   }
 
   function arrancarCuentaAtras() {
@@ -364,6 +369,31 @@
     });
   }
 
+  // ——— Hoja de estadísticas ———
+  function abrirEstadisticas() {
+    const hoja = $('hoja-estadisticas');
+    if (hoja.open) return;
+    pintarEstadisticas('hest');
+    hoja.showModal();
+    requestAnimationFrame(() => requestAnimationFrame(() => hoja.classList.add('abierta')));
+  }
+  function cerrarEstadisticas() {
+    const hoja = $('hoja-estadisticas');
+    if (!hoja.open) return;
+    hoja.classList.remove('abierta');
+    const reducido = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    setTimeout(() => hoja.close(), reducido ? 0 : 480);
+  }
+  function prepararEstadisticas() {
+    const hoja = $('hoja-estadisticas');
+    $('boton-estadisticas').addEventListener('click', abrirEstadisticas);
+    $('boton-cerrar-estadisticas').addEventListener('click', cerrarEstadisticas);
+    hoja.addEventListener('cancel', (e) => { e.preventDefault(); cerrarEstadisticas(); });
+    hoja.addEventListener('click', (e) => { // toque fuera de la hoja, sobre el fondo oscurecido
+      if (e.target === hoja && e.clientY < hoja.getBoundingClientRect().top) cerrarEstadisticas();
+    });
+  }
+
   // ——— Arranque ———
   function empezar() {
     if (partidaTerminada()) {
@@ -398,6 +428,7 @@
 
   async function iniciar() {
     prepararBienvenida();
+    prepararEstadisticas();
     actualizarColorBarra();
 
     const prueba = diaDePrueba();

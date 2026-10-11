@@ -100,6 +100,24 @@ a.boton { text-align: center; text-decoration: none; }
   font: 500 1.375rem/1 var(--serif);
   cursor: pointer;
 }
+/* Estadísticas: arriba a la izquierda, simétrico al de ayuda, con el icono de barras de los demás juegos. */
+.boton-estadisticas {
+  position: absolute;
+  top: max(16px, env(safe-area-inset-top));
+  left: calc(max(16px, (100% - 30rem) / 2) - 10px);
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--tinta);
+  cursor: pointer;
+}
+.boton-estadisticas svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.boton-estadisticas:focus-visible { outline: 2px solid var(--rojo); outline-offset: -4px; border-radius: 50%; }
 .boton-ayuda:focus-visible { outline: 2px solid var(--rojo); outline-offset: -4px; border-radius: 50%; }
 
 /* ——— Aviso de modo prueba ——— */
@@ -153,7 +171,7 @@ a.boton { text-align: center; text-decoration: none; }
   justify-content: space-between;
   gap: 12px;
   min-height: 44px;
-  padding-right: 54px; /* hueco para el botón de ayuda */
+  padding: 0 54px 0 40px; /* huecos para los botones de estadísticas y ayuda */
 }
 .progreso {
   display: flex;
@@ -382,6 +400,7 @@ a.boton { text-align: center; text-decoration: none; }
   color: var(--tinta-suave);
 }
 .estadisticas dd { margin: 0; font: 500 1.875rem/1 var(--serif); }
+.hoja .estadisticas { margin: 8px 0 24px; text-align: center; }
 
 .cuenta-atras {
   margin: 20px 0 0;

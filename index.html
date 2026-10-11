@@ -49,6 +49,9 @@
   <div class="aviso-prueba" id="aviso-prueba" hidden></div>
 
   <main>
+    <button class="boton-estadisticas" id="boton-estadisticas" type="button" aria-label="Estadísticas">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V11M10 20V5M16 20v-7M22 20H2"/></svg>
+    </button>
     <button class="boton-ayuda" id="boton-ayuda" type="button" aria-label="Cómo se juega">?</button>
 
     <!-- Juego -->
@@ -127,6 +130,18 @@
       <li>Comparte tu resultado y vuelve mañana: las palabras se renuevan a medianoche.</li>
     </ol>
     <button class="boton boton-principal" id="boton-empezar" type="button">Empezar</button>
+  </dialog>
+
+  <dialog class="hoja" id="hoja-estadisticas" aria-labelledby="estadisticas-titulo">
+    <div class="hoja-asa" aria-hidden="true"></div>
+    <h2 class="hoja-titulo" id="estadisticas-titulo">Estadísticas</h2>
+    <dl class="estadisticas">
+      <div><dt>Racha</dt><dd id="hest-racha">0</dd></div>
+      <div><dt>Mejor racha</dt><dd id="hest-mejor">0</dd></div>
+      <div><dt>Partidas</dt><dd id="hest-partidas">0</dd></div>
+      <div><dt>Aciertos</dt><dd id="hest-aciertos">0</dd></div>
+    </dl>
+    <button class="boton boton-principal" id="boton-cerrar-estadisticas" type="button">Cerrar</button>
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
