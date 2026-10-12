@@ -25,7 +25,7 @@ icons/              Logo e iconos
 
 ## Almanaque
 
-Otrora forma parte de [Almanaque](https://joseleking.github.io/Almanaque/). `volver-almanaque.js` es una copia del de Almanaque (`para-los-juegos/`): si se entra desde allí, muestra la franja «☜ Regresar al Almanaque» y el botón de volver de la pantalla final. Al terminar la partida del día, `js/app.js` llama a `window.almanaqueHecho({ aciertos, total, racha })` para que la hoja salga como «Hecho» con el resultado. En modo prueba no avisa.
+Otrora forma parte de [Almanaque](https://emiliocasanovabiscarri.github.io/Almanaque/). `volver-almanaque.js` es una copia del de Almanaque (`para-los-juegos/`): si se entra desde allí, muestra la franja «☜ Regresar al Almanaque» y el botón de volver de la pantalla final. Al terminar la partida del día, `js/app.js` llama a `window.almanaqueHecho({ aciertos, total, racha })` para que la hoja salga como «Hecho» con el resultado. En modo prueba no avisa.
 
 ## Probar en local
 
