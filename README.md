@@ -44,3 +44,7 @@ Después, abre <http://localhost:8000/> o <http://localhost:8000/?dia=3>.
 3. Al cabo de un minuto estará en `https://<usuario>.github.io/<repositorio>/`.
 
 Todas las rutas son relativas, así que funciona dentro de esa subruta. Si cambias la lista de archivos que cachea `sw.js`, sube su `VERSION`. Los cambios de contenido llegan solos, porque el service worker pide primero a la red.
+
+## Derechos de autor
+
+© 2026 Emilio Casanova Biscarri. Todos los derechos reservados. El código, los textos y los diseños de este repositorio no pueden copiarse ni reutilizarse sin permiso.
