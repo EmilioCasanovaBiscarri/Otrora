@@ -94,19 +94,22 @@
     </section>
 
     <!-- Final -->
-    <section class="pantalla pantalla-final" id="pantalla-final" aria-labelledby="titulo-final" hidden>
-      <p class="dia-etiqueta" id="final-dia">Día —</p>
-      <h2 class="titulo-final" id="titulo-final" tabindex="-1"></h2>
-      <p class="relojes" id="relojes" role="img"></p>
-      <p class="puntuacion" id="puntuacion"></p>
+    <!-- Igual en todos los juegos del Almanaque: ficha con el resultado, una línea por palabra,
+         estadísticas y botones, que se ven sin desplazarse. -->
+    <section class="pantalla pantalla-final" id="pantalla-final" aria-label="Resultado de hoy" hidden>
+      <div class="ficha-final">
+        <p class="relojes" id="relojes" role="img"></p>
+        <h2 class="titulo-final" id="titulo-final" tabindex="-1"></h2>
+        <p class="frase-final" id="frase-final"></p>
+      </div>
 
       <ol class="repaso" id="repaso"></ol>
 
       <dl class="estadisticas">
+        <div><dt>Días</dt><dd id="est-partidas">0</dd></div>
+        <div><dt>Aciertos</dt><dd id="est-aciertos">0</dd></div>
         <div><dt>Racha</dt><dd id="est-racha">0</dd></div>
         <div><dt>Mejor racha</dt><dd id="est-mejor">0</dd></div>
-        <div><dt>Partidas</dt><dd id="est-partidas">0</dd></div>
-        <div><dt>Aciertos</dt><dd id="est-aciertos">0</dd></div>
       </dl>
 
       <button class="boton boton-principal" id="boton-compartir" type="button">Compartir</button>
@@ -139,10 +142,10 @@
     <div class="hoja-asa" aria-hidden="true"></div>
     <h2 class="hoja-titulo" id="estadisticas-titulo">Estadísticas</h2>
     <dl class="estadisticas">
+      <div><dt>Días</dt><dd id="hest-partidas">0</dd></div>
+      <div><dt>Aciertos</dt><dd id="hest-aciertos">0</dd></div>
       <div><dt>Racha</dt><dd id="hest-racha">0</dd></div>
       <div><dt>Mejor racha</dt><dd id="hest-mejor">0</dd></div>
-      <div><dt>Partidas</dt><dd id="hest-partidas">0</dd></div>
-      <div><dt>Aciertos</dt><dd id="hest-aciertos">0</dd></div>
     </dl>
     <button class="boton boton-principal" id="boton-cerrar-estadisticas" type="button">Cerrar</button>
   </dialog>

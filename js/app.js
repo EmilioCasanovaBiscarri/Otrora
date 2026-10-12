@@ -5,8 +5,6 @@
   const FECHA_INICIO = '2026-10-04';      // Fecha del «Día 1» (hora local del jugador), en formato AAAA-MM-DD
   const CLAVE_ESTADO = 'otrora:estado';
   const CLAVE_BIENVENIDA = 'otrora:bienvenida';
-  const ACIERTO = '⏳';
-  const FALLO = '⌛';
   const LETRAS = ['A', 'B', 'C', 'D', 'E'];
   const DURACION_PORTADA = 1500;          // ms que se ve la portada al abrir
   const PORTADA_PINTADA = 1400;           // ms mínimos desde que se pinta, para que el reloj acabe de girar
@@ -227,16 +225,12 @@
   }
 
   // ——— Final ———
-  function textoResultado() {
-    return respuestas().map((r) => (r.acierto ? ACIERTO : FALLO)).join('');
-  }
-
   function mostrarFinal() {
     const aciertos = respuestas().filter((r) => r && r.acierto).length;
     const total = palabras.length;
-    const titulos = ['Las palabras guardan bien su pasado', 'Algo has rescatado del olvido', 'Buen oído para lo antiguo', 'Pleno de erudito'];
-    $('final-dia').textContent = `Día ${dia}`;
-    $('titulo-final').textContent = titulos[Math.round((aciertos / total) * 3)];
+    const frases = ['Las palabras guardan bien su pasado.', 'Algo has rescatado del olvido.', 'Buen oído para lo antiguo.', 'Pleno de erudito.'];
+    $('titulo-final').innerHTML = `${aciertos} <small>de ${total}</small>`;
+    $('frase-final').textContent = frases[Math.round((aciertos / total) * 3)];
     const relojes = $('relojes');
     relojes.innerHTML = '';
     respuestas().forEach((r) => {
@@ -246,16 +240,17 @@
       svg.innerHTML = '<path d="M51,43 H69 C69,52 61,56 61,60 C61,64 69,68 69,77 H51 C51,68 59,64 59,60 C59,56 51,52 51,43 Z"/>';
       relojes.appendChild(svg);
     });
-    relojes.setAttribute('aria-label', textoResultado());
-    $('puntuacion').textContent = `${aciertos} de ${total} aciertos`;
+    relojes.setAttribute('aria-label', `${aciertos} ${aciertos === 1 ? 'acierto' : 'aciertos'} de ${total}`);
 
     const repaso = $('repaso');
     repaso.innerHTML = '';
     palabras.forEach((p, i) => {
       const li = document.createElement('li');
       const acierto = respuestas()[i] && respuestas()[i].acierto;
-      li.innerHTML = '<span class="marca" aria-hidden="true"></span><span><b></b> · <span class="ant"></span></span>';
+      li.innerHTML = '<span class="marca"></span><b></b><span class="ant"></span>';
       li.querySelector('.marca').classList.toggle('fallo', !acierto);
+      li.querySelector('.marca').textContent = acierto ? '✓' : '✗';
+      li.querySelector('.marca').setAttribute('aria-label', acierto ? 'Acierto' : 'Fallo');
       li.querySelector('b').textContent = p.palabra;
       li.querySelector('.ant').textContent = p.otrora;
       repaso.appendChild(li);
@@ -268,13 +263,14 @@
     arrancarCuentaAtras();
   }
 
-  // Racha, partidas y aciertos: en la pantalla final («est-») y en la hoja de estadísticas («hest-»).
+  // Días jugados, porcentaje de aciertos y rachas: en la pantalla final («est-») y en la hoja
+  // de estadísticas («hest-»). Cada día tiene tres palabras.
   function pintarEstadisticas(prefijo) {
     const s = estado.stats;
     $(prefijo + '-racha').textContent = rachaVisible();
     $(prefijo + '-mejor').textContent = s.mejorRacha;
     $(prefijo + '-partidas').textContent = s.partidas;
-    $(prefijo + '-aciertos').textContent = s.aciertos;
+    $(prefijo + '-aciertos').textContent = `${s.partidas ? Math.round((s.aciertos / (s.partidas * 3)) * 100) : 0}%`;
   }
 
   function arrancarCuentaAtras() {

@@ -338,47 +338,60 @@ a.boton { text-align: center; text-decoration: none; }
 }
 .ficha-datos dd { margin: 0; }
 
-/* ——— Final ——— */
-.pantalla-final { text-align: center; padding-top: 32px; }
-.titulo-final {
-  margin: 12px 0 0;
-  font: 500 2.25rem/1.1 var(--serif);
+/* ——— Final ———
+   Igual en todos los juegos del Almanaque: ficha con el resultado, una línea por palabra,
+   estadísticas y botones. Todo cabe en el móvil sin desplazarse hasta los botones. */
+.pantalla-final { text-align: center; padding-top: 12px; }
+.ficha-final {
+  padding: 10px 16px 12px;
+  border: 1px solid var(--linea);
+  outline: 1px solid var(--linea);
+  outline-offset: -5px;
+  border-radius: 2px;
+  background: var(--papel);
 }
 .relojes {
   display: flex;
   justify-content: center;
-  gap: 18px;
-  margin: 22px 0 6px;
+  gap: 12px;
+  margin: 2px 0 0;
 }
-.reloj { width: 26px; height: 44px; overflow: visible; }
-.reloj path { stroke-width: 1.4; stroke-linejoin: round; }
+.reloj { width: 15px; height: 26px; overflow: visible; }
+.reloj path { stroke-width: 1.6; stroke-linejoin: round; }
 .reloj.acierto path { fill: var(--rojo); stroke: var(--rojo); }
 .reloj.fallo path { fill: none; stroke: var(--tinta-suave); }
-.puntuacion {
-  margin: 8px 0 0;
+.titulo-final {
+  margin: 2px 0 0;
+  font: 500 2.4rem/1.05 var(--serif);
+}
+.titulo-final small { font-size: .55em; font-weight: 400; color: var(--tinta-suave); }
+.titulo-final:focus { outline: none; }
+.frase-final {
+  margin: 2px 0 0;
   font: italic 400 1.125rem/1.3 var(--serif);
   color: var(--tinta-suave);
 }
 
 .repaso {
   list-style: none;
-  margin: 28px 0 0;
+  margin: 8px 0 0;
   padding: 0;
   text-align: left;
-  border-top: 1px solid var(--linea);
 }
 .repaso li {
-  display: flex;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: 24px auto 1fr;
+  column-gap: 8px;
   align-items: baseline;
-  padding: 12px 0;
+  min-height: 42px;
+  padding: 7px 0;
   border-bottom: 1px solid var(--linea);
-  font: 400 1.0625rem/1.4 var(--serif);
+  font: 400 1.0625rem/1.3 var(--serif);
 }
-.repaso .marca { flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--tinta); transform: translateY(-1px); }
-.repaso .marca.fallo { background: var(--rojo); }
-.repaso b { font-weight: 600; }
-.repaso .ant { font-style: italic; color: var(--tinta-suave); }
+.repaso .marca { font-weight: 600; text-align: center; color: var(--tinta); }
+.repaso .marca.fallo { color: var(--rojo); }
+.repaso b { font-weight: 600; font-size: 1.2rem; }
+.repaso .ant { font-style: italic; color: var(--tinta-suave); text-align: right; }
 
 .estadisticas {
   display: grid;
@@ -391,19 +404,43 @@ a.boton { text-align: center; text-decoration: none; }
   font: 500 .6875rem/1.2 var(--sans);
   letter-spacing: .06em;
   text-transform: uppercase;
+  white-space: nowrap;
   color: var(--tinta-suave);
 }
 .estadisticas dd { margin: 0; font: 500 1.875rem/1 var(--serif); }
 .hoja .estadisticas { margin: 8px 0 24px; text-align: center; }
+.pantalla-final .estadisticas {
+  gap: 4px;
+  margin: 12px 0 0;
+  padding: 8px 0;
+  border-top: 3px double var(--linea);
+  border-bottom: 3px double var(--linea);
+}
+.pantalla-final .estadisticas div { gap: 4px; }
+.pantalla-final .estadisticas dd { font-size: 1.4rem; }
 
 .cuenta-atras {
-  margin: 20px 0 0;
+  margin: 14px 0 0;
   color: var(--tinta-suave);
   font-size: .9375rem;
 }
 #cuenta-atras { font-variant-numeric: tabular-nums; color: var(--tinta); font-weight: 600; }
-.pantalla-final .boton + .boton { margin-top: 10px; }
+.pantalla-final .boton { min-height: 48px; padding: 10px 20px; }
+.pantalla-final .estadisticas + .boton { margin-top: 12px; }
+.pantalla-final .boton + .boton { margin-top: 8px; }
 .pantalla-final #boton-repetir { margin-top: 24px; }
+
+/* En pantallas bajas (iPhone SE, Android pequeños) las estadísticas bajan bajo los botones,
+   para que Compartir, Siguiente juego y Regresar se vean sin desplazarse. */
+@media (max-height: 660px) {
+  .pantalla-final:not([hidden]) { display: flex; flex-direction: column; padding-top: 8px; }
+  .pantalla-final > .estadisticas,
+  .pantalla-final > .cuenta-atras,
+  .pantalla-final > #boton-repetir { order: 1; }
+  .pantalla-final .repaso + .boton { margin-top: 12px; }
+  .ficha-final { padding: 8px 16px 10px; }
+  .repaso li { min-height: 40px; padding: 6px 0; }
+}
 
 /* ——— Hoja de bienvenida ——— */
 .hoja {
