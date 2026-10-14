@@ -2047,5 +2047,635 @@
     "explicacion": "Del griego euangélion, «buena noticia»; también era la propina que se daba al mensajero que la traía.",
     "epoca": "Grecia antigua",
     "fuente": "DLE, s. v. evangelio"
+  },
+  {
+    "dia": 69, "orden": 1,
+    "palabra": "verdugo",
+    "hoy": "ejecutor de las penas de muerte",
+    "otrora": "renuevo, vara verde de un árbol",
+    "distractores": ["capucha negra", "cadalso de madera", "soga de esparto"],
+    "explicacion": "De «verde». El verdugo era el vástago tierno del árbol, y luego la vara que se cortaba de él para azotar; de quien azotaba se pasó a quien ejecutaba las penas. El DLE aún recoge el sentido de «renuevo o vástago del árbol».",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. verdugo"
+  },
+  {
+    "dia": 69, "orden": 2,
+    "palabra": "minuto",
+    "hoy": "cada una de las sesenta partes de una hora",
+    "otrora": "menudo, pequeño",
+    "distractores": ["instante de silencio", "manecilla del reloj", "aguja pequeña"],
+    "explicacion": "Del latín minutus, «menudo». La hora se dividía en partes menudas, pars minuta prima; las «segundas» partes, más pequeñas aún, dieron «segundo».",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. minuto; etimología latina (minutus)"
+  },
+  {
+    "dia": 69, "orden": 3,
+    "palabra": "nómina",
+    "hoy": "relación de pagos de una empresa; también, el sueldo",
+    "otrora": "lista de nombres",
+    "distractores": ["moneda de plata", "libro de cuentas", "paga extraordinaria"],
+    "explicacion": "Del latín nomina, plural de nomen, «nombre». Era cualquier lista de nombres; como en las de los empleados figuraba lo que cobraba cada uno, acabó designando el sueldo.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. nómina"
+  },
+  {
+    "dia": 70, "orden": 1,
+    "palabra": "presidente",
+    "hoy": "persona que preside un gobierno, una reunión o una entidad",
+    "otrora": "el que se sienta delante",
+    "distractores": ["el más anciano", "el que vota primero", "el que guarda las llaves"],
+    "explicacion": "Del latín praesidens, de praesidere, «sentarse delante»: quien ocupaba el asiento principal en una reunión.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. presidente; etimología latina (praesidere)"
+  },
+  {
+    "dia": 70, "orden": 2,
+    "palabra": "ambición",
+    "hoy": "deseo ardiente de poder, riqueza o fama",
+    "otrora": "acción de ir de un lado a otro pidiendo votos",
+    "distractores": ["afán de viajar", "envidia del vecino", "gula, glotonería"],
+    "explicacion": "Del latín ambitio, de ambire, «dar vueltas»: en Roma, los candidatos recorrían el foro buscando apoyos.",
+    "epoca": "Latín clásico",
+    "fuente": "Etimología latina (ambitio, ambire)"
+  },
+  {
+    "dia": 70, "orden": 3,
+    "palabra": "peculio",
+    "hoy": "dinero o bienes particulares de una persona",
+    "otrora": "ganado propio",
+    "distractores": ["salario de un soldado", "moneda de cobre", "dote de una novia"],
+    "explicacion": "Del latín peculium, de pecus, «ganado»: la riqueza se medía en cabezas. En Roma, el peculio era lo que el padre o el amo dejaba administrar al hijo o al esclavo.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. peculio; etimología latina (pecus)"
+  },
+  {
+    "dia": 71, "orden": 1,
+    "palabra": "necio",
+    "hoy": "terco y tonto, imprudente",
+    "otrora": "que no sabe, ignorante",
+    "distractores": ["que niega todo", "que no tiene nada", "que no duerme"],
+    "explicacion": "Del latín nescius, «que no sabe». El DLE sigue definiéndolo como «ignorante y que no sabe lo que podía o debía saber».",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. necio; etimología latina (nescius)"
+  },
+  {
+    "dia": 71, "orden": 2,
+    "palabra": "soldado",
+    "hoy": "persona que sirve en el ejército",
+    "otrora": "persona a sueldo",
+    "distractores": ["jinete armado", "herrero de espadas", "centinela nocturno"],
+    "explicacion": "Del italiano soldato, «el que cobra soldo», es decir, sueldo. Se oponía al guerrero feudal, que luchaba por obligación con su señor.",
+    "epoca": "Siglo XVI",
+    "fuente": "DLE, s. v. soldado; etimología italiana (soldato)"
+  },
+  {
+    "dia": 71, "orden": 3,
+    "palabra": "guerrilla",
+    "hoy": "grupo armado que lucha fuera del ejército regular",
+    "otrora": "guerra pequeña, escaramuza",
+    "distractores": ["muchacha guerrera", "tambor de guerra", "campamento de tiendas"],
+    "explicacion": "Es el diminutivo de «guerra». La palabra se hizo internacional con la guerra de la Independencia, contra Napoleón: el inglés y el francés la tomaron del español.",
+    "epoca": "Siglo XIX",
+    "fuente": "DLE, s. v. guerrilla"
+  },
+  {
+    "dia": 72, "orden": 1,
+    "palabra": "emboscada",
+    "hoy": "ataque por sorpresa desde un escondite",
+    "otrora": "ocultación en el bosque",
+    "distractores": ["trampa para lobos", "paso estrecho de montaña", "cacería real"],
+    "explicacion": "De «emboscar», «poner en el bosque»: los soldados se escondían entre los árboles para caer sobre el enemigo.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. emboscar, emboscada"
+  },
+  {
+    "dia": 72, "orden": 2,
+    "palabra": "campeón",
+    "hoy": "vencedor de una competición",
+    "otrora": "el que combate en el campo",
+    "distractores": ["jinete de carreras", "el que lleva la bandera", "el que entrena a los reclutas"],
+    "explicacion": "Del italiano campione, del latín campus, «campo de batalla». Era el caballero que luchaba en el campo, en batalla o en duelo, a veces en nombre de otro.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. campeón"
+  },
+  {
+    "dia": 72, "orden": 3,
+    "palabra": "olimpiada",
+    "hoy": "competición deportiva internacional cada cuatro años",
+    "otrora": "periodo de cuatro años",
+    "distractores": ["corona de olivo", "carrera de carros", "templo de Zeus"],
+    "explicacion": "En Grecia, la olimpiada era el plazo de cuatro años entre dos juegos de Olimpia, y servía para contar el tiempo. El DLE conserva ese sentido.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. olimpiada"
+  },
+  {
+    "dia": 73, "orden": 1,
+    "palabra": "noticia",
+    "hoy": "información sobre algo reciente",
+    "otrora": "conocimiento, noción",
+    "distractores": ["rumor, chisme", "carta sellada", "pregón"],
+    "explicacion": "Del latín notitia, «conocimiento». «Tener noticia de algo» es, todavía, saber de ello.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. noticia"
+  },
+  {
+    "dia": 73, "orden": 2,
+    "palabra": "periódico",
+    "hoy": "diario impreso",
+    "otrora": "que se repite cada cierto tiempo",
+    "distractores": ["pregonero de la plaza", "hoja de anuncios", "calendario de pared"],
+    "explicacion": "Era un adjetivo: lo que vuelve cada cierto periodo, como las fiebres periódicas. Los papeles que salían con regularidad acabaron llamándose así.",
+    "epoca": "Siglo XVIII",
+    "fuente": "DLE, s. v. periódico"
+  },
+  {
+    "dia": 73, "orden": 3,
+    "palabra": "revista",
+    "hoy": "publicación periódica con artículos e imágenes",
+    "otrora": "inspección de tropas, segunda vista",
+    "distractores": ["crítica de teatro", "desfile de modelos", "reseña de un libro"],
+    "explicacion": "De «revistar», volver a ver. «Pasar revista» a la tropa es inspeccionarla; las publicaciones que pasaban revista a la actualidad heredaron el nombre.",
+    "epoca": "Siglo XIX",
+    "fuente": "DLE, s. v. revista"
+  },
+  {
+    "dia": 74, "orden": 1,
+    "palabra": "prensa",
+    "hoy": "periódicos y periodistas",
+    "otrora": "máquina para apretar uvas o aceitunas",
+    "distractores": ["taller de encuadernación", "pliego de papel", "tinta de imprenta"],
+    "explicacion": "De «prensar». La imprenta de Gutenberg imitaba las prensas de vino, y el nombre pasó de la máquina a lo que imprimía y a quienes escribían en ello.",
+    "epoca": "Siglo XVI",
+    "fuente": "DLE, s. v. prensa"
+  },
+  {
+    "dia": 74, "orden": 2,
+    "palabra": "correo",
+    "hoy": "servicio de envío de cartas; también, el electrónico",
+    "otrora": "mensajero que lleva cartas",
+    "distractores": ["saco de cuero", "oficina de sellos", "camino real"],
+    "explicacion": "Del catalán antiguo correu, de «correr». Era la persona que llevaba las cartas, a pie o a caballo; luego pasó a designar el servicio y la propia correspondencia.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. correo"
+  },
+  {
+    "dia": 74, "orden": 3,
+    "palabra": "campaña",
+    "hoy": "conjunto de acciones para lograr un fin",
+    "otrora": "campo llano",
+    "distractores": ["tienda de soldados", "cosecha de verano", "estandarte"],
+    "explicacion": "Del latín campania, «campo llano». Los ejércitos salían al campo en verano: de ahí «campaña militar» y, después, la electoral o la publicitaria.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. campaña"
+  },
+  {
+    "dia": 75, "orden": 1,
+    "palabra": "éxito",
+    "hoy": "resultado feliz",
+    "otrora": "salida, final",
+    "distractores": ["aplauso del público", "premio en un torneo", "aclamación"],
+    "explicacion": "Del latín exitus, «salida». El final podía ser bueno o malo: el DLE aún recoge el «éxito» como «fin o terminación de un negocio». El inglés exit conserva el sentido de salida.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. éxito"
+  },
+  {
+    "dia": 75, "orden": 2,
+    "palabra": "fracaso",
+    "hoy": "resultado adverso",
+    "otrora": "estrépito de algo que se rompe",
+    "distractores": ["retirada en la batalla", "naufragio", "vergüenza pública"],
+    "explicacion": "Del italiano fracasso, «estrépito». Primero fue el ruido y el destrozo de algo que se rompe con violencia; después, el mal resultado.",
+    "epoca": "Siglo XVI",
+    "fuente": "DLE, s. v. fracaso"
+  },
+  {
+    "dia": 75, "orden": 3,
+    "palabra": "tienda",
+    "hoy": "establecimiento donde se vende",
+    "otrora": "pabellón de tela, tienda de campaña",
+    "distractores": ["mostrador de madera", "puesto de mercado", "trastienda"],
+    "explicacion": "Del latín tendere, «tender»: era la lona tendida sobre palos. Los comerciantes vendían bajo toldos así, y el nombre pasó al local.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. tienda"
+  },
+  {
+    "dia": 76, "orden": 1,
+    "palabra": "botica",
+    "hoy": "farmacia",
+    "otrora": "almacén, tienda",
+    "distractores": ["laboratorio de alquimista", "frasco de medicina", "huerto de hierbas"],
+    "explicacion": "Del griego apothéke, «depósito, almacén», a través del occitano. La tienda del boticario se especializó en medicinas. El francés boutique y el alemán Apotheke vienen de la misma palabra.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. botica"
+  },
+  {
+    "dia": 76, "orden": 2,
+    "palabra": "clínica",
+    "hoy": "hospital privado, consulta médica",
+    "otrora": "relativa a la cama",
+    "distractores": ["casa de baños", "escuela de medicina", "jardín de plantas medicinales"],
+    "explicacion": "Del griego klinikós, de klíne, «cama»: la medicina clínica era la que se ejercía a la cabecera del enfermo encamado.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. clínica"
+  },
+  {
+    "dia": 76, "orden": 3,
+    "palabra": "paciente",
+    "hoy": "persona que recibe atención médica",
+    "otrora": "que sufre, que padece",
+    "distractores": ["que espera turno", "que obedece", "que se cura sola"],
+    "explicacion": "Del latín patiens, «que padece». Sigue vivo el adjetivo («una persona paciente», que soporta con calma), y el enfermo es el que sufre la enfermedad.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. paciente"
+  },
+  {
+    "dia": 77, "orden": 1,
+    "palabra": "cirujano",
+    "hoy": "médico que opera",
+    "otrora": "el que trabaja con las manos",
+    "distractores": ["el que corta el pelo", "el que conoce los astros", "el que prepara ungüentos"],
+    "explicacion": "Del griego kheirourgós, de kheír, «mano», y érgon, «obra». Durante siglos fue un oficio manual, a menudo de barberos, distinto del del médico.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. cirujano"
+  },
+  {
+    "dia": 77, "orden": 2,
+    "palabra": "doctor",
+    "hoy": "persona con el grado de doctor; coloquialmente, médico",
+    "otrora": "el que enseña",
+    "distractores": ["el que cura", "el que escribe", "el que juzga"],
+    "explicacion": "Del latín doctor, de docere, «enseñar»: la Iglesia llama doctores a los grandes maestros de la fe. El uso para el médico es posterior.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. doctor"
+  },
+  {
+    "dia": 77, "orden": 3,
+    "palabra": "colegio",
+    "hoy": "centro de enseñanza",
+    "otrora": "corporación de personas de un mismo oficio",
+    "distractores": ["aula con pupitres", "patio de recreo", "residencia de monjes"],
+    "explicacion": "Del latín collegium, de collega, «colega». Aún hay colegios de abogados o de médicos; los de estudiantes con sus maestros acabaron siendo escuelas.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. colegio"
+  },
+  {
+    "dia": 78, "orden": 1,
+    "palabra": "universidad",
+    "hoy": "institución de enseñanza superior",
+    "otrora": "totalidad, conjunto",
+    "distractores": ["lugar de todos los saberes", "escuela de la Iglesia", "biblioteca del rey"],
+    "explicacion": "Del latín universitas, «totalidad, conjunto»: la universitas magistrorum et scholarium era el gremio de maestros y estudiantes.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. universidad"
+  },
+  {
+    "dia": 78, "orden": 2,
+    "palabra": "licenciado",
+    "hoy": "persona que tiene una licenciatura",
+    "otrora": "que ha recibido permiso",
+    "distractores": ["soldado retirado", "abogado del rey", "estudiante pobre"],
+    "explicacion": "Era quien había obtenido licencia, permiso, para ejercer o enseñar. Todavía se dice de los soldados que acaban el servicio: los licenciados.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. licenciado"
+  },
+  {
+    "dia": 78, "orden": 3,
+    "palabra": "lección",
+    "hoy": "cada parte de lo que se enseña",
+    "otrora": "lectura",
+    "distractores": ["regañina", "castigo escolar", "pizarra"],
+    "explicacion": "Del latín lectio, «lectura». En la escuela medieval se aprendía leyendo y comentando textos en voz alta.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. lección"
+  },
+  {
+    "dia": 79, "orden": 1,
+    "palabra": "cuaderno",
+    "hoy": "conjunto de hojas cosidas para escribir",
+    "otrora": "grupo de cuatro pliegos",
+    "distractores": ["libreta de cuentas", "cubierta de cuero", "tabla para escribir"],
+    "explicacion": "Del latín quaterni, «de cuatro en cuatro»: los copistas doblaban y cosían los pliegos en grupos de cuatro.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. cuaderno"
+  },
+  {
+    "dia": 79, "orden": 2,
+    "palabra": "página",
+    "hoy": "cada una de las caras de una hoja",
+    "otrora": "hilera de vides",
+    "distractores": ["hoja de un árbol", "tablilla de cera", "rollo de papiro"],
+    "explicacion": "Del latín pagina, de pangere, «clavar, fijar». Se llamaba así a las hileras de vides sujetas a estacas, y luego a las columnas de escritura de un rollo.",
+    "epoca": "Latín clásico",
+    "fuente": "Etimología latina (pagina, pangere)"
+  },
+  {
+    "dia": 79, "orden": 3,
+    "palabra": "autor",
+    "hoy": "persona que ha creado una obra",
+    "otrora": "el que hace crecer, promotor",
+    "distractores": ["el que firma", "el que copia", "el que manda"],
+    "explicacion": "Del latín auctor, de augere, «aumentar»: el que hace crecer o da origen a algo. De la misma familia son «autoridad» y «augusto».",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. autor; etimología latina (augere)"
+  },
+  {
+    "dia": 80, "orden": 1,
+    "palabra": "poeta",
+    "hoy": "persona que escribe poesía",
+    "otrora": "el que hace, el que fabrica",
+    "distractores": ["el que canta", "el que sueña", "el que reza"],
+    "explicacion": "Del griego poietés, de poieîn, «hacer». El poeta era el que hacía, el creador; los griegos lo distinguían del simple artesano solo por lo que fabricaba: versos.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. poeta"
+  },
+  {
+    "dia": 80, "orden": 2,
+    "palabra": "novela",
+    "hoy": "obra de ficción larga en prosa",
+    "otrora": "noticia nueva; relato breve",
+    "distractores": ["carta de amor", "cuento infantil", "canción de gesta"],
+    "explicacion": "Del italiano novella, «noticia, novedad». Las novelas de Boccaccio eran relatos cortos; las «Novelas ejemplares» de Cervantes también.",
+    "epoca": "Siglo de Oro",
+    "fuente": "DLE, s. v. novela"
+  },
+  {
+    "dia": 80, "orden": 3,
+    "palabra": "teatro",
+    "hoy": "arte y edificio de las representaciones",
+    "otrora": "lugar para mirar",
+    "distractores": ["máscara", "escenario de madera", "coro de cantantes"],
+    "explicacion": "Del griego théatron, de theâsthai, «mirar»: era la gradería desde donde el público contemplaba el espectáculo.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. teatro"
+  },
+  {
+    "dia": 81, "orden": 1,
+    "palabra": "coro",
+    "hoy": "conjunto de personas que cantan juntas",
+    "otrora": "danza en círculo",
+    "distractores": ["grupo de monjes", "cantante solista", "galería de la iglesia"],
+    "explicacion": "Del griego khorós, «danza en corro». En la tragedia griega, el coro bailaba y cantaba a la vez.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. coro"
+  },
+  {
+    "dia": 81, "orden": 2,
+    "palabra": "concierto",
+    "hoy": "función de música",
+    "otrora": "acuerdo, convenio",
+    "distractores": ["música de iglesia", "reunión de amigos", "competición"],
+    "explicacion": "De «concertar», «ponerse de acuerdo». El DLE conserva el sentido de «ajuste o convenio»; un concierto musical es, al fin, voces e instrumentos de acuerdo.",
+    "epoca": "Siglo de Oro",
+    "fuente": "DLE, s. v. concierto"
+  },
+  {
+    "dia": 81, "orden": 3,
+    "palabra": "verbena",
+    "hoy": "fiesta popular nocturna",
+    "otrora": "planta medicinal",
+    "distractores": ["hoguera de San Juan", "farolillo de papel", "baile de pareja"],
+    "explicacion": "La verbena es una planta que se recogía de madrugada la víspera de San Juan, por sus supuestas virtudes. Las fiestas de esa noche, y luego las de otros santos, tomaron su nombre.",
+    "epoca": "Siglo de Oro",
+    "fuente": "DLE, s. v. verbena"
+  },
+  {
+    "dia": 82, "orden": 1,
+    "palabra": "villancico",
+    "hoy": "canción de Navidad",
+    "otrora": "canción de aldeanos",
+    "distractores": ["canto de los pastores de Belén", "himno de los Reyes Magos", "campanilla de iglesia"],
+    "explicacion": "Es el diminutivo de «villano», el habitante de la villa o del campo. Era una canción popular, de cualquier tema; solo después se asoció a la Navidad.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. villancico"
+  },
+  {
+    "dia": 82, "orden": 2,
+    "palabra": "banquete",
+    "hoy": "comida espléndida para muchos invitados",
+    "otrora": "banco pequeño",
+    "distractores": ["mesa larga", "mantel de fiesta", "brindis"],
+    "explicacion": "Del italiano banchetto, diminutivo de banco: el asiento donde se sentaban los comensales acabó dando nombre a la comida.",
+    "epoca": "Siglo XVI",
+    "fuente": "DLE, s. v. banquete"
+  },
+  {
+    "dia": 82, "orden": 3,
+    "palabra": "postre",
+    "hoy": "lo que se toma al final de la comida",
+    "otrora": "último",
+    "distractores": ["dulce de convento", "fruta del tiempo", "sobremesa"],
+    "explicacion": "Del latín poster, «posterior». Se conserva en «a la postre», al final; el postre es lo que llega en último lugar.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. postre"
+  },
+  {
+    "dia": 83, "orden": 1,
+    "palabra": "romería",
+    "hoy": "fiesta popular en un santuario",
+    "otrora": "peregrinación a Roma",
+    "distractores": ["procesión de Semana Santa", "carreta de bueyes", "ermita del monte"],
+    "explicacion": "De «romero», el peregrino que iba a Roma. Luego se aplicó a cualquier peregrinación y, por fin, a la fiesta que la acompaña.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. romería, romero"
+  },
+  {
+    "dia": 83, "orden": 2,
+    "palabra": "huésped",
+    "hoy": "persona alojada en casa ajena",
+    "otrora": "el que hospeda, anfitrión",
+    "distractores": ["viajero extranjero", "criado de una posada", "mendigo"],
+    "explicacion": "Del latín hospes, que designaba tanto al que hospedaba como al hospedado. El DLE aún recoge «persona que hospeda en su casa a alguien».",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. huésped"
+  },
+  {
+    "dia": 83, "orden": 3,
+    "palabra": "piso",
+    "hoy": "vivienda en un edificio",
+    "otrora": "suelo, pavimento",
+    "distractores": ["escalera", "habitación alquilada", "tejado"],
+    "explicacion": "De «pisar»: era el suelo que se pisa. Luego, cada planta de una casa y, por último, la vivienda que hay en ella.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. piso"
+  },
+  {
+    "dia": 84, "orden": 1,
+    "palabra": "retrete",
+    "hoy": "cuarto de baño; también, el inodoro",
+    "otrora": "cuarto pequeño y retirado",
+    "distractores": ["pozo negro", "orinal", "patio trasero"],
+    "explicacion": "Del catalán retret, «retirado». Era un aposento pequeño para retirarse, como un gabinete; con el tiempo se reservó para lo más íntimo.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. retrete"
+  },
+  {
+    "dia": 84, "orden": 2,
+    "palabra": "inodoro",
+    "hoy": "taza del váter",
+    "otrora": "que no tiene olor",
+    "distractores": ["que no tiene agua", "de porcelana", "sin tapa"],
+    "explicacion": "Era un adjetivo: «sin olor». Se aplicó a los retretes con sifón, que evitaban el mal olor, y acabó siendo su nombre.",
+    "epoca": "Siglo XIX",
+    "fuente": "DLE, s. v. inodoro"
+  },
+  {
+    "dia": 84, "orden": 3,
+    "palabra": "tren",
+    "hoy": "conjunto de vagones arrastrados por una locomotora",
+    "otrora": "comitiva, séquito",
+    "distractores": ["carro de bueyes", "camino de hierro", "diligencia"],
+    "explicacion": "Del francés train, de traîner, «arrastrar». Era el séquito de criados, carruajes y bagajes de un viaje: de ahí «tren de vida».",
+    "epoca": "Siglo XVIII",
+    "fuente": "DLE, s. v. tren"
+  },
+  {
+    "dia": 85, "orden": 1,
+    "palabra": "satélite",
+    "hoy": "cuerpo que gira alrededor de un planeta",
+    "otrora": "escolta, guardaespaldas",
+    "distractores": ["estrella fugaz", "lente de un telescopio", "luna llena"],
+    "explicacion": "Del latín satelles, «escolta». Kepler llamó así a las lunas de Júpiter que había descubierto Galileo, porque acompañan al planeta como una guardia.",
+    "epoca": "Siglo XVI",
+    "fuente": "DLE, s. v. satélite"
+  },
+  {
+    "dia": 85, "orden": 2,
+    "palabra": "eclipse",
+    "hoy": "ocultación de un astro por otro",
+    "otrora": "abandono, desaparición",
+    "distractores": ["oscuridad del infierno", "anillo de fuego", "presagio"],
+    "explicacion": "Del griego ékleipsis, «abandono, desaparición»: el sol o la luna parecían abandonar el cielo.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. eclipse"
+  },
+  {
+    "dia": 85, "orden": 3,
+    "palabra": "clima",
+    "hoy": "conjunto de condiciones del tiempo de un lugar",
+    "otrora": "inclinación",
+    "distractores": ["temperatura", "viento", "región"],
+    "explicacion": "Del griego klíma, «inclinación»: la del sol sobre el horizonte, que cambia según la latitud. Los geógrafos dividían la Tierra en «climas», franjas paralelas.",
+    "epoca": "Grecia antigua",
+    "fuente": "DLE, s. v. clima"
+  },
+  {
+    "dia": 86, "orden": 1,
+    "palabra": "vacaciones",
+    "hoy": "días de descanso del trabajo o de los estudios",
+    "otrora": "el hecho de estar vacío, desocupado",
+    "distractores": ["viajes al mar", "fiestas del rey", "días de mercado"],
+    "explicacion": "Del latín vacatio, de vacare, «estar vacío, libre». Lo que se vaciaba era el tiempo: quedaba libre de obligaciones.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. vacación"
+  },
+  {
+    "dia": 86, "orden": 2,
+    "palabra": "jubilación",
+    "hoy": "retiro del trabajo por edad",
+    "otrora": "júbilo, alegría",
+    "distractores": ["año santo", "pensión de viudedad", "cumpleaños"],
+    "explicacion": "Del latín iubilatio, «júbilo». En la Biblia, el año jubilar era un descanso; de «jubilar», «librarse alegremente del trabajo», salió el retiro.",
+    "epoca": "Latín cristiano",
+    "fuente": "DLE, s. v. jubilación, jubilar"
+  },
+  {
+    "dia": 86, "orden": 3,
+    "palabra": "huelga",
+    "hoy": "interrupción colectiva del trabajo",
+    "otrora": "holganza, descanso",
+    "distractores": ["protesta en la calle", "motín", "pancarta"],
+    "explicacion": "De «holgar», «descansar, estar ocioso». El DLE aún recoge el «tiempo en que alguien está sin trabajar»; la protesta obrera es del siglo XIX.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. huelga, holgar"
+  },
+  {
+    "dia": 87, "orden": 1,
+    "palabra": "jefe",
+    "hoy": "persona que manda sobre otras",
+    "otrora": "cabeza",
+    "distractores": ["espada", "bastón de mando", "dueño de la casa"],
+    "explicacion": "Del francés chef, del latín caput, «cabeza». Es lo mismo que el chef de cocina: el que está a la cabeza.",
+    "epoca": "Siglo XVIII",
+    "fuente": "DLE, s. v. jefe"
+  },
+  {
+    "dia": 87, "orden": 2,
+    "palabra": "compañía",
+    "hoy": "empresa; también, presencia de alguien",
+    "otrora": "el hecho de compartir el pan",
+    "distractores": ["tropa de soldados", "amistad de la infancia", "banda de música"],
+    "explicacion": "Del latín vulgar companio, «el que come pan con otro», de cum y panis. El compañero es, literalmente, con quien compartes el pan.",
+    "epoca": "Latín cristiano",
+    "fuente": "DLE, s. v. compañía; etimología latina (cum, panis)"
+  },
+  {
+    "dia": 87, "orden": 3,
+    "palabra": "cliente",
+    "hoy": "persona que compra o usa un servicio",
+    "otrora": "protegido de un patrón",
+    "distractores": ["comerciante", "deudor", "vecino"],
+    "explicacion": "Del latín cliens: en Roma, el cliente era un hombre libre que dependía de un patrón poderoso, al que saludaba cada mañana a cambio de protección.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. cliente"
+  },
+  {
+    "dia": 88, "orden": 1,
+    "palabra": "criado",
+    "hoy": "persona que sirve en una casa",
+    "otrora": "educado, criado en la casa",
+    "distractores": ["comprado en el mercado", "contratado por un día", "heredado"],
+    "explicacion": "Es el participio de «criar». Era el muchacho que se había criado en una casa noble, educado por el señor, y que luego le servía.",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. criado"
+  },
+  {
+    "dia": 88, "orden": 2,
+    "palabra": "cura",
+    "hoy": "sacerdote",
+    "otrora": "cuidado, preocupación",
+    "distractores": ["curación", "templo", "túnica"],
+    "explicacion": "Del latín cura, «cuidado». El cura es quien tiene la «cura de almas», el cuidado espiritual de una parroquia.",
+    "epoca": "Latín cristiano",
+    "fuente": "DLE, s. v. cura"
+  },
+  {
+    "dia": 88, "orden": 3,
+    "palabra": "hígado",
+    "hoy": "órgano que segrega la bilis",
+    "otrora": "cebado con higos",
+    "distractores": ["de color morado", "que sangra mucho", "blando como el higo"],
+    "explicacion": "Del latín ficatum, de ficus, «higo». Los romanos engordaban a los gansos con higos para que el hígado fuera más sabroso: iecur ficatum. Y de «ficatum» quedó solo el hígado.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. hígado; etimología latina (ficatum)"
+  },
+  {
+    "dia": 89, "orden": 1,
+    "palabra": "rubio",
+    "hoy": "de color parecido al oro",
+    "otrora": "rojizo, rojo",
+    "distractores": ["blanco", "brillante", "pálido"],
+    "explicacion": "Del latín rubeus, «rojizo», de la familia de «rubí» y «rubor». Con el tiempo pasó a designar el color dorado del pelo.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. rubio"
+  },
+  {
+    "dia": 89, "orden": 2,
+    "palabra": "monumento",
+    "hoy": "obra arquitectónica o escultórica notable",
+    "otrora": "recuerdo, lo que hace recordar",
+    "distractores": ["tumba de un rey", "columna", "ruina"],
+    "explicacion": "Del latín monumentum, de monere, «recordar, advertir». Cualquier cosa que hacía recordar a alguien era un monumento, empezando por las tumbas.",
+    "epoca": "Latín clásico",
+    "fuente": "DLE, s. v. monumento"
+  },
+  {
+    "dia": 89, "orden": 3,
+    "palabra": "jarabe",
+    "hoy": "medicina líquida y dulce",
+    "otrora": "bebida",
+    "distractores": ["miel", "veneno", "zumo de uva"],
+    "explicacion": "Del árabe šarāb, «bebida», de la misma familia que «sorbete».",
+    "epoca": "Edad Media",
+    "fuente": "DLE, s. v. jarabe"
   }
 ]
