@@ -155,6 +155,7 @@
     const p = palabras[i];
     $('numero-palabra').textContent = `${i + 1} de ${palabras.length}`;
     $('palabra').textContent = p.palabra;
+    $('pregunta-palabra').textContent = p.palabra;
     $('hoy').textContent = p.hoy;
 
     const opciones = barajar([p.otrora, ...p.distractores], `${dia}|${p.orden}|${p.palabra}`);
