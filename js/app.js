@@ -173,7 +173,9 @@
       contenedor.appendChild(boton);
     });
 
+    // Plegada, la ficha (con «Siguiente») queda fuera del alcance del teclado y del lector de pantalla.
     $('ficha').classList.remove('abierta');
+    $('ficha').inert = true;
     $('boton-siguiente').textContent = i === palabras.length - 1 ? 'Ver resultado' : 'Siguiente';
     mostrar('pantalla-juego', 'palabra');
 
@@ -193,6 +195,7 @@
 
   function revelar(r, animar) {
     const p = palabras[indice];
+    $('ficha').inert = false;
     const contenedor = $('opciones');
     contenedor.classList.add('respondida');
     contenedor.querySelectorAll('.opcion').forEach((b) => {
@@ -221,6 +224,7 @@
   }
 
   function siguiente() {
+    if (!respuestas()[indice]) return; // sin contestar no se avanza
     if (indice < palabras.length - 1) mostrarPregunta(indice + 1);
     else mostrarFinal();
   }
